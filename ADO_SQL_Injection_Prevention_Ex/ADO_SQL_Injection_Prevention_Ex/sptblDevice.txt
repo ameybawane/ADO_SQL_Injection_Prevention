@@ -1,0 +1,14 @@
+﻿USE [Sample]
+GO
+
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+ALTER   PROCEDURE [dbo].[sptblDevice]
+	@DeviceName VARCHAR(50)
+AS
+BEGIN
+	SELECT * FROM tblDevice
+	WHERE DeviceName LIKE @DeviceName + '%'
+END
