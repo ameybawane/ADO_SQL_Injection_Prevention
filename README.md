@@ -1,4 +1,4 @@
-# SQL Injection Prevention
+# SQL Injection Prevention in ADO.NET
 
 SQL Injection refers to the malicious code that can cause permanent loss to the database and even result in the loss of the database. Injection refers to the insertion of SQL queries through input data from the client into the application. Attackers can use SQL injection to add, modify, or delete records in the database. SQL injection can also be thought of as a web-based attack to take over the database.
 
